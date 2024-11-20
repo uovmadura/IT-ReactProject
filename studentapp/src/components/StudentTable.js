@@ -2,8 +2,8 @@ import '../assets/css/compo.css'
 
 export default function StudentTable(props) {
     return(
-        <div className="outerDev">
-            <div className="leftDev">
+        <div className="outerDiv">
+            <div className="leftDiv">
                 <table>
                     <thead>
                         <tr>

@@ -11,6 +11,7 @@ This project is designed to develop an online student information portal for the
 - [Features](#features)
 - [Contributing](#contributing)
 - [License](#license)
+- [Output](#Output)
 
 ## Project Overview
 
@@ -74,8 +75,26 @@ Before you begin, ensure that you have the following installed:
 
 ## Project Structure
 
-The project is organized as follows:
-/online-student-information-portal │ ├── /public # Public assets (index.html, icons, etc.) ├── /src # Source files │ ├── /components # Reusable UI components (e.g., Button, Header) │ ├── /pages # Page components (e.g., Home, Login, Dashboard) │ ├── /services # Services to handle API requests │ ├── /utils # Utility functions and helpers │ ├── App.js # Main App component │ ├── index.js # Entry point for the React app │ ├── styles.css # Global CSS (or use styled-components) │ ├── .gitignore # Git ignore file ├── package.json # Project metadata and dependencies └── README.md # This file
+```
+/online-student-information-portal
+├── /public                    
+│   ├── index.html             
+│   ├── favicon.ico            
+│   └── /assets                
+│       └── profilepic.jpg     # Sample profile image
+├── /src                       
+│   ├── /components            
+│   │   ├── StudentTable.js    # Component to display student information table
+│   │   └── Profile.js         # Component to display student's detailed profile
+│   ├── /data                  
+│   │   └── StudentsDb.js      # Student database (array of student objects)
+│   ├── App.js                 # Main App component
+│   ├── App.css                # Styling for the app
+│   └── index.js               # Entry point for the React app
+├── .gitignore                 
+├── package.json               
+└── README.md                  
+```
 
 ## Features
 
@@ -104,7 +123,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-We hope this portal helps streamline the student information management at the University of Vavuniya. If you have any questions or suggestions, feel free to open an issue or contact the project team.
+## Output
+
+
+![Output](https://github.com/user-attachments/assets/abe2b2b1-c9d0-4240-8e9a-2d9de6fb5b4c)
+
 
 Happy coding! 🚀
 
